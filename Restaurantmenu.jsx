@@ -21,7 +21,7 @@ export default function Restaurantmenu(){
        
             fetchData();
            },[])
-           console.log(RestData);
+          
            
     return(
         <div className="w-[80%] mx-auto mt-20">
