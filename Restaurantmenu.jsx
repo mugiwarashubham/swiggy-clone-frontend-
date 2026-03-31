@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import MenuCard from "./Menucard";
+import { Link } from "react-router";
 export default function Restaurantmenu(){
     const {id}=useParams(); //useparam id ki value layega 
     const[selected,setslected]=useState(null);
@@ -26,6 +27,12 @@ export default function Restaurantmenu(){
            
     return(
       <div>
+        <div className="w-[80%] mx-auto mt-20 mb-20">
+               <Link to={`/city/delhi/${id}/search`}>
+               <p className="w-full font-bold text-center py-4 rounded-4xl bg-gray-200 text-2xl">Search for Dishes</p>
+              </Link>
+         </div>  
+
         <div className="w-[80%] mx-auto mt-20 mb-20">
           <button className= {`text-2xl py-2 px-8 mr-4 border rounded-2xl ${selected==='veg'?"bg-green-500":"bg-gray-300"}`} onClick={() => setslected(selected==='veg'?null:'veg')}>Veg</button>
           <button className= {`text-2xl py-2 px-8 mr-4 border rounded-2xl ${selected==="nonveg"?"bg-red-500":"bg-gray-300"}`} onClick={() => setslected(selected==='nonveg'?null:'nonveg')}>Non Veg</button>
