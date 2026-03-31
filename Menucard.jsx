@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Foodmenu from "./foodmenu"
-export default function MenuCard({menuItems}){
+export default function MenuCard({menuItems,foodselected}){
     const [isopen,setisopen]=useState(true);
 
 
@@ -29,7 +29,7 @@ export default function MenuCard({menuItems}){
                     menuItems?.itemCards?.map((items)=><Foodmenu key={items?.card?.info?.id} restData = {items?.card?.info}></Foodmenu>)
                 }
             </div>
-             <div className="h-5 bg-gray-200 mt-2 mb-2"></div>
+              <div className="h-5 bg-gray-200 mt-2 mb-2"></div>
      </div>
 
     )
