@@ -17,7 +17,7 @@ A production-grade clone of **Swiggy**, India's leading food delivery platform. 
 ---
 
 ### 📋 Menu — Non Veg Filter Active
-![Menu Non Veg](Screenshot%202026-04-01%20163428.png)
+![Menu Non Veg](Screenshot%202026-04-01%20164720.png)
 
 ---
 
