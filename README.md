@@ -1,4 +1,4 @@
-# 🍕 Swiggy Clone — Full stack Food Delivery App
+# 🍕 Swiggy Clone — Full Stack Food Delivery App
 
 A production-grade clone of **Swiggy**, India's leading food delivery platform. Built with React, Redux Toolkit, Tailwind CSS, and real Swiggy APIs — fully functional with live restaurant data, dynamic menus, cart management, and veg/non-veg filtering.
 
