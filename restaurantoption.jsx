@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import RestCard from "./RestCard";
 import Shimmer from "./Shimmer";
 
+
 export default function Restaurant(){
    
     const [RestData, setRestData] = useState([])
@@ -27,12 +28,18 @@ export default function Restaurant(){
         return <Shimmer></Shimmer>
 
     return (
-        <div className="flex flex-wrap w-[80%] mx-auto mt-20 gap-5">
+        <div>
+           
+            <div className="mt-20 mb-5 mx-38">
+            <p className="text-2xl mt-20 mb-5 font-bold ">Top restaurant chains in Delhi</p>
+            </div>
+        <div className="flex flex-wrap w-[80%] mx-auto mt-5 gap-5">
             
             {
                 RestData.map((restInfo)=><RestCard key={restInfo?.info?.id} restInfo={restInfo}></RestCard>)
             }
 
+        </div>
         </div>
     )
 
