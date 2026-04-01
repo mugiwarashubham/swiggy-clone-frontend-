@@ -1,6 +1,38 @@
-# 🍕 Swiggy Clone — Full Stack Food Delivery App
+# 🍕 Swiggy Clone — Full-Stack Food Delivery App
 
-A production-grade clone of **Swiggy**, India's leading food delivery platform. Built with React, Redux Toolkit, Tailwind CSS, and real Swiggy APIs — fully functional with live restaurant data, dynamic menus, cart management, and veg/non-veg filtering.
+A production-grade clone of **Swiggy**, India's leading food delivery platform. Built with React, Redux Toolkit, Tailwind CSS, and **real Swiggy APIs** — fully functional with live restaurant data, dynamic menus, cart management, and veg/non-veg filtering.
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](Screenshot%202026-03-31%20231029.png)
+
+---
+
+### 🍽️ Restaurant Listing
+![Restaurant List](Screenshot%202026-04-01%20163411.png)
+
+---
+
+### 📋 Menu — Non Veg Filter Active
+![Menu Non Veg](Screenshot%202026-04-01%20163428.png)
+
+---
+
+### 🥦 Menu — Veg Filter Active
+![Menu Veg](Screenshot%202026-04-01%20163455.png)
+
+---
+
+### 🛍️ Instamart + Dineout Section
+![Instamart](Screenshot%202026-04-01%20164720.png)
+
+---
+
+### 🛒 Cart
+![Cart](Screenshot%202026-04-01%20173900.png)
 
 ---
 
@@ -29,28 +61,6 @@ Routing        →  React Router DOM v6
 Data Source    →  Swiggy Live API (Real data)
 CORS Fix       →  cors-anywhere Proxy Server
 ```
-
----
-
-## 📸 Screenshots
-
-### 🏠 Home Page
-Orange-themed hero with location search + Food Delivery / Instamart / Dineout cards.
-
-### 🍽️ Restaurant Listing (`/restaurant`)
-Live restaurant cards with real images, ratings, delivery time, and cuisine tags — fetched directly from Swiggy's API.
-
-### 📋 Menu Page (`/city/delhi/:restaurantId`)
-Full menu with collapsible categories, item images, calorie info, and ADD button.
-
-### 🥦 Veg Filter Active
-Green "Veg" toggle filters only vegetarian items — e.g., Margherita (₹169, 4.0★).
-
-### 🍗 Non-Veg Filter Active
-Red "Non Veg" toggle shows non-vegetarian items — e.g., Chicken Sausage (₹259, 5.0★).
-
-### 🛒 Cart
-Full cart with item details, quantity controls, total price (₹438), and "Place Order" button.
 
 ---
 
@@ -94,7 +104,7 @@ const PROXY = "https://cors-anywhere.herokuapp.com/";
 const API_URL = `${PROXY}https://www.swiggy.com/dapi/...`;
 ```
 
-> This is the same technique used by many production Swiggy clones and food-tech interview projects.
+> This is the same technique used in production-level interview projects to bypass CORS on third-party APIs.
 
 ---
 
@@ -180,20 +190,14 @@ http://localhost:5173
 
 ## 💡 What This Project Demonstrates
 
-- ✅ Real API integration with live production data scraping
-- ✅ Global state management with Redux Toolkit (cart persist across pages)
+- ✅ Real API integration with live Swiggy production data
+- ✅ Global state management with Redux Toolkit (cart persists across pages)
 - ✅ Client-side routing with dynamic URL params
-- ✅ Conditional rendering & filtering (veg/non-veg)
+- ✅ Conditional rendering & filtering (veg/non-veg toggle)
 - ✅ Component-based architecture with reusable UI components
 - ✅ Proxy server pattern for CORS-restricted APIs
 - ✅ Responsive layout with Tailwind CSS utility classes
 - ✅ Modular folder structure following industry conventions
-
----
-
-## 🙋 Author
-
-Built with ❤️ as a deep-dive React learning project — replicating one of India's most complex food delivery UIs from scratch.
 
 ---
 
