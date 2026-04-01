@@ -28,9 +28,11 @@ export default function RestHeader() {
           </Link>
 
           
+          <Link to="/Checkout">
           <div className="cursor-pointer flex items-center gap-1">
             🛒 <span className="hidden sm:inline">Cart{`(${counter})`}</span>
           </div>
+          </Link>
 
         </div>
 

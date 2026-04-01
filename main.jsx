@@ -7,6 +7,7 @@ import SearchFood from './searchfood';
 import SecondaryHome from './secondaryhome';
 import { store } from '../store/store';
 import {Provider} from "react-redux"
+import Checkout from './checkout';
 
 import Restaurantoption from './restaurantoption'
 function App(){
@@ -21,6 +22,7 @@ function App(){
     <Route path='/city/delhi/:id' element={<Restaurantmenu></Restaurantmenu>}></Route>  {/*id -ek dynamic parameter hai (placeholderki tarah*/}
     <Route path="/city/delhi/:id/search" element={<SearchFood></SearchFood>}></Route>
     </Route>
+    <Route path="/Checkout" element={<Checkout></Checkout>}></Route>
     </Routes>
     </BrowserRouter>
     </Provider>
