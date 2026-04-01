@@ -145,7 +145,7 @@ Each category (Top Picks, Recommended, etc.) has a toggle arrow — sections exp
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/swiggy-clone.git
+git clone https://github.com/mugiwarashubham/swiggy-clone-frontend-
 cd swiggy-clone
 
 # Install dependencies
