@@ -27,7 +27,7 @@ A production-grade clone of **Swiggy**, India's leading food delivery platform. 
 ---
 
 ### 🛍️ Instamart + Dineout Section
-![Instamart](Screenshot%202026-04-01%20164720.png)
+![Instamart](Screenshot%202026-04-01%20163411.png)
 
 ---
 
