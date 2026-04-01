@@ -12,7 +12,7 @@ A production-grade clone of **Swiggy**, India's leading food delivery platform. 
 ---
 
 ### 🍽️ Restaurant Listing
-![Restaurant List](Screenshot%202026-04-01%20163411.png)
+![Restaurant List](Screenshot%202026-04-01%20163428.png)
 
 ---
 
